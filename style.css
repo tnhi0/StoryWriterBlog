@@ -3,6 +3,14 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #fce4ec; /* Light pink background color */
+}
+
+.top-header {
+    background-color: #ff69b4; /* Pink color for top header */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
 header {
@@ -76,3 +84,18 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+#blog {
+    background-color: #fff; /* White background color for the blog section */
+    padding: 20px 0;
+    text-align: center;
+}
+
+#blog .container {
+    width: 80%;
+}
+
+#blog h2 {
+    color: #ff69b4; /* Pink color for section headings */
+}
+
