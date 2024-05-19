@@ -7,7 +7,7 @@ body {
 
 header {
     background: #f4f4f4;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -22,11 +22,13 @@ header {
 .banner {
     width: 500px;
     max-width: 66.66%;
+    border: none;
+    margin: 0;
 }
 
 .header-text {
     width: 33.33%;
-    padding-left: 20px;
+    padding-left: 10px;
     text-align: left;
 }
 
@@ -36,8 +38,9 @@ header {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-weight: 700;
+    margin-left: 10px;
 }
 
 footer {
