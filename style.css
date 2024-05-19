@@ -103,3 +103,8 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+/* Style the favicon as circular */
+link[rel="icon"] {
+    border-radius: 50%;
+}
