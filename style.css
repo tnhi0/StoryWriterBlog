@@ -11,6 +11,19 @@ body {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    position: relative;
+}
+
+.top-header .blog-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff1493;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
 }
 
 header {
@@ -98,4 +111,3 @@ footer {
 #blog h2 {
     color: #ff69b4; /* Pink color for section headings */
 }
-
