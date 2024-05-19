@@ -1,99 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insra's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="top-header">
-        <h1>Welcome to Insra's Portfolio</h1>
-        <a href="https://tnhi0.github.io/StoryWriterBlog/" class="blog-link">Blog</a>
-    </div>
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff; /* White background color */
+    color: #000; /* Black text color */
+}
 
-    <header>
-        <div class="header-container">
-            <img src="images/banner.png" alt="Banner Picture" class="banner">
-            <div class="header-text">
-                <p>Hello, I'm Insra. I'm an IT student, and currently based in Vietnam. I have always liked making up stories and drawing, and so I admire a lot of manga (and later, when I know better to look up their author - mangaka). I started drawing webcomic in 2019 on Webtoon and Tapas. After some break since entering college, I thought I want to try my hand to write other people's story (Things happens in my life that make me realize it's important). And here I am. Please to make your acquaintance and I hope I can help you tell and remember your story.</p>
-            </div>
-        </div>
-    </header>
+.top-header {
+    background-color: #000; /* Black background color for top header */
+    color: #fff; /* White text color for top header */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
 
-    <section id="previous-work">
-        <div class="container">
-            <h2>Previous Work</h2>
-            <p>I have already made a Behance portfolio. You can check it out <a href="https://www.behance.net/">here</a>. I have completed one freelancing job and the result was great.</p>
-        </div>
-    </section>
+.top-header .blog-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #444; /* Dark gray background color for the blog link */
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
 
-    <section id="pricing">
-        <div class="container">
-            <h2>Pricing</h2>
-            <p>I do comic/webcomic work.</p>
-            <ul>
-                <li>For full color comic: $8 per page</li>
-                <li>For black and white: $6 per page</li>
-                <li>For webcomic: $105 per 10,000 px. You can check out my previous work <a href="https://tapas.io/series/Why-do-we-go-to-school-a-one-shot/info">here</a>. It's 20,000 px.</li>
-            </ul>
-            <p>The price can fluctuate as well depending on other specifications made during the planning process.</p>
-        </div>
-    </section>
+header {
+    background: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
 
-    <section id="timeline">
-        <div class="container">
-            <h2>Timeline</h2>
-            <p>Because I tend to do long, drawn-out work, it usually takes about 1 month roughly.</p>
-            <p>This is what I've done with my previous project and it worked pretty well:</p>
-            <table class="timeline-table">
-                <tr>
-                    <th>Phase</th>
-                    <th>Details</th>
-                </tr>
-                <tr>
-                    <td>Initial Agreement</td>
-                    <td>
-                        <ul>
-                            <li>Set the project budget: How much can you spend on this project?</li>
-                            <li>Set the project timeline: When is the deadline? Is it a hard or soft deadline?</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>First Meeting</td>
-                    <td>
-                        <ul>
-                            <li>Tell me the story that you want to tell
-                                <ul>
-                                    <li>Who are the characters in your story? What are they like?</li>
-                                    <li>What is the main feeling that you want to convey?</li>
-                                    <li>Why do you want to tell this story? Is this something that you have thought of for a while?</li>
-                                    <li>What is the vibe that you want the story to give off? (chill, formal, wholesome, blue... you can describe it anyway you want)</li>
-                                    <li>What music do you want the story to be like? I think music is a very good way to specify complex feelings. If there are any songs like that for you, please tell me!</li>
-                                </ul>
-                            </li>
-                            <li>We would sort out these things as well:
-                                <ul>
-                                    <li>Where will we communicate? When and how often do we do revisions?</li>
-                                    <li>How and when will the project be financed? (Usually 2 times: at project start and end)</li>
-                                    <li>When is the deadline? How long will the project last?</li>
-                                    <li>Are there any other materials necessary for the project? (photos...)</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Project Timeline</td>
-                    <td>Then I will create a timeline of the project and send it to you. Each week, I'll update the progress of the project and we will meet once a week for revision. Then we wrap things up.</td>
-                </tr>
-            </table>
-        </div>
-    </section>
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
 
-    <footer>
-        <p>&copy; 2024 Insra. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+.banner {
+    width: 500px;
+    max-width: 66.66%;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-text {
+    width: 33.33%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.timeline-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.timeline-table th, .timeline-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.timeline-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.timeline-table ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.timeline-table ul ul {
+    list-style-type: circle;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
