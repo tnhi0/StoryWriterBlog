@@ -66,6 +66,11 @@ h2 {
     margin-left: 10px;
 }
 
+p{
+    margin-left: 10px;
+    text-align: left;
+}
+
 .timeline-table {
     width: 100%;
     border-collapse: collapse;
