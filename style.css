@@ -6,56 +6,41 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+    background: #f4f4f4;
+    padding: 20px 0;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
+.banner {
+    width: 66.66%;
+    max-width: 500px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.header-text {
+    width: 33.33%;
+    padding-left: 20px;
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 2rem 0;
+    margin: 20px auto;
 }
 
-.profile-pic {
-    width: 150px;
-    border-radius: 50%;
-    margin: 1rem 0;
-}
-
-h1, h2 {
+h2 {
     text-align: center;
-}
-
-#projects .project {
-    margin: 1rem 0;
-}
-
-#projects .project img {
-    width: 100%;
-    height: auto;
 }
 
 footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 10px 0;
 }
