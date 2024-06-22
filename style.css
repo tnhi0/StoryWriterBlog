@@ -1,24 +1,24 @@
 /* assets/css/styles.css */
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     margin: 0;
-    padding: 0;
+    padding: 60px;
     box-sizing: border-box;
 }
 .banner {
     width: 100%;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #ff6984;
     text-align: center;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .content {
-    padding: 50px 20px;
+    padding-bottom: 40px;
 }
 .image-text-pair {
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
