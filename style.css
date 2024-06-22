@@ -108,3 +108,60 @@ footer {
 link[rel="icon"] {
     border-radius: 50%;
 }
+ 
+/*-------------------------------------------------------------*/
+/* assets/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+.image-text-pair {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1200px;
+}
+.image-text-pair img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+.image-text-pair .text {
+    margin-left: 20px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+@media (max-width: 1200px) {
+    .image-text-pair img,
+    .image-text-pair .text {
+        max-width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .image-text-pair {
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-text-pair .text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
